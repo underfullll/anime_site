@@ -1,0 +1,150 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 150px;
+}
+
+.profile {
+    width: 1520px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    height: 600px;
+    margin: 20px 0;
+    box-shadow: 0px 16px 16px 0px rgba(0, 0, 0, 0.12);
+    background: rgb(177, 225, 163);
+}
+
+.left {
+    flex: 1;
+    margin-left: 80px;
+}
+
+.left h2 {
+    /* wonderful */
+    width: 255px;
+    height: 75px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.left span {
+    /* 25 */
+    color: black;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    margin: 0px 22px;
+    border: 3px solid rgb(254, 163, 224);
+    border-radius: 50px;
+    background: rgb(254, 249, 194);
+}
+
+.quote{
+    /* «Не важно, с какой скоростью ты движешься к своей цели, главное — не останавливаться» */
+    font-family: Poppins;
+    font-size: 22px;
+}
+.date{
+    /* Регистрация: 30.10.2024 */
+    color: white;
+    display: flex;
+    font-family: Poppins;
+    font-size: 22px;
+}
+
+.button-add{  
+    width: 262px;
+    height: 63px;
+    color: white;
+    border-radius: 10px;
+    background: rgb(254, 163, 224);
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.right img {
+    margin-bottom: 145px;
+    width: 733px;
+    height: 747px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px 0; 
+}
+.info-position{
+    display: flex;
+    justify-content: center;
+}
+.tabs-position{
+    display: flex;
+    justify-content: center;
+}
+
+.love-anime, .linked, .showcase-of-objects, .tabs {
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.14);
+    padding: 20px;
+}
+
+.love-anime {
+    background: linear-gradient(90.00deg, rgba(177, 225, 163, 0.86) -0.197%, rgba(254, 249, 194, 0.86) 100%);
+    margin: 0 10px; 
+    width: 725px;
+    height: 382px;
+}
+
+.linked {
+    background: rgb(254, 249, 194);
+    margin: 0 10px;
+    width: 218px;
+    height: 382px;
+}
+
+.showcase-of-objects {
+    background: linear-gradient(90.00deg, rgba(177, 225, 163, 0.86) -0.197%, rgba(254, 249, 194, 0.86) 100%);
+    margin: 0 10px; 
+    width: 425px;
+    height: 382px;
+}
+
+.tabs {
+    width: 1490px;
+    height: 482px;
+    margin: 20px 0;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.14);
+    background: rgb(254, 249, 194);
+}
+
+.tabs button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px; 
+}

@@ -1,0 +1,85 @@
+.OtakuWorld{
+    margin-right: 76px;
+}
+.box_nav{
+    margin-right: 76px;
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box_nav ul li:last-child {
+    margin-left: 30px;
+}
+
+.box_nav ul {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.box_nav ul li {
+    display: flex;
+    justify-content: space-around;
+    list-style: none; 
+    padding: 0;
+    margin: 0; 
+}
+
+.box_nav ul li a {
+    text-decoration: none;
+}
+
+#header_conteiner {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.input_conteiner {
+    margin-right: 76px;
+    width: 100%;
+    max-width: 730px; 
+}
+
+.input_conteiner input {
+    border-radius: 10px;
+    padding: 0 16px;
+    width: 730px;
+    height: 40px;
+    box-shadow: 0 1px 2px 0 rgba(8, 35, 48, 0.24), 0 2px 6px 0 rgba(8, 35, 48, 0.16);
+    background: white;
+}
+
+#header_conteiner a {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between; 
+    color: white;
+}
+
+.box_LK {
+    width: 193px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.LK_button_registration {
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+    width: 130px;
+    background: #ff708c;
+}
+
+.LK_button_login {
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    width: 62px;
+    background: rgba(255, 162, 181, 0.5);
+}

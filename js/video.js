@@ -2,16 +2,16 @@
 const slides = document.querySelectorAll('.image-slider_image');
 
 slides.forEach(slide => {
-    const video = slide.querySelector('.animated-video'); // Находим видео внутри слайда
+    const video = slide.querySelector('.animated-video');
 
     slide.addEventListener('mouseenter', () => {
-        video.style.display = 'block'; // Показываем видео
-        video.play(); // Запускаем воспроизведение видео
+        video.style.display = 'block'; 
+        video.play();
     });
 
     slide.addEventListener('mouseleave', () => {
-        video.pause(); // Останавливаем воспроизведение видео
-        video.currentTime = 0; // Сбрасываем видео на начало
-        video.style.display = 'none'; // Скрываем видео
+        video.pause();
+        video.currentTime = 0;
+        video.style.display = 'none'; 
     });
 });
