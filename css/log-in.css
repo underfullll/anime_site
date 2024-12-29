@@ -1,0 +1,102 @@
+/* Модальное окно стили */
+.cd-user-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 3;
+    overflow-y: auto;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+.cd-switcher{
+    display: flex;
+    justify-content: center;
+}
+.lk-login{
+    margin-right: 250px;
+    list-style: none; 
+    text-decoration: none;
+}
+.lk-signup{
+    list-style: none; 
+    text-decoration: none;
+}
+
+.cd-user-modal.is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-user-modal-container {
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    background: rgb(255, 255, 255);
+    margin: 3em auto;
+    padding: 2em;
+    border-radius: 14px;
+}
+
+.cd-form {
+    padding: 1.4em;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translateY(20px);
+}
+
+.cd-form.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+    display: block; /* Показываем форму при необходимости */
+}
+
+.cd-form input {
+    background-color: 1px solid rgba(255, 112, 140, 0.9);
+    border-radius: 0.25em;
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.cd-form input[type=submit] {
+    background: #ff708c;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.cd-form input[type=submit]:hover {
+    background: rgba(255, 112, 140, 0.9);
+}
+
+.cd-close-form {
+    display: flex;
+    justify-content: center;
+}
+
+.cd-error-message {
+    background: rgba(215, 102, 102, 0.9);
+    color: #fff;
+    padding: 0.8em;
+    border-radius: 0.25em;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.2s, visibility 0.2s;
+}
+
+.cd-error-message.is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.fieldset{
+    color: black;
+}
+
+.fieldset-checkbox{
+    display: flex;
+    justify-content: center;
+}

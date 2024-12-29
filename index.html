@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper-sim-slider.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/anons-img-container.css">
+    <link rel="stylesheet" href="css/log-in.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <!-- Шапка -->
+    <header>
+        <div id="header_conteiner">
+            <div id="box_logo">
+                <a href="profile.html">
+                    <h1 class="OtakuWorld">OtakuWorld</h1>
+                </a>
+            </div>
+
+            <nav class="box_nav">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Каталог</a></li>
+                </ul>
+            </nav>
+
+            <div class="input_conteiner"><input type="text" placeholder="Найти аниме по названию"></div>
+            
+            <div class="box_LK">
+                <a class="cd-signup LK_button_registration" href="#0">Регистрация</a>
+                <a class="cd-signin LK_button_login" href="#0">Войти</a>
+            </div>
+        </div>
+    </header>
+
+<!-- Модальное окно -->
+<div class="cd-user-modal"> 
+    <div class="cd-user-modal-container"> 
+        <ul class="cd-switcher">
+            <li><a class="lk-login" href="#0">Войти</a></li>
+            <li><a class="lk-signup" href="#0">Регистрация</a></li>
+        </ul>
+
+        <div id="cd-login" class="cd-form"> <!-- Добавьте класс для управления видимостью -->
+            <form>
+                <p class="fieldset">
+                    <label class="image-replace cd-email" for="signin-email">E-mail</label>
+                    <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+                    <span class="cd-error-message">Ошибка</span>
+                </p>
+
+                <p class="fieldset">
+                    <label class="image-replace cd-password" for="signin-password">Password</label>
+                    <input class="full-width has-padding has-border" id="signin-password" type="password" placeholder="Password">
+                    <a href="#0" class="hide-password">Скрыть</a>
+                    <span class="cd-error-message">Ошибка</span>
+                </p>
+
+                <p class="fieldset">
+                    <input type="checkbox" id="remember-me" checked>
+                    <label for="remember-me">Запомнить меня</label>
+                </p>
+
+                <p class="fieldset">
+                    <input class="full-width" type="submit" value="Login">
+                </p>
+            </form>
+            <p class="cd-form-bottom-message"><a href="#0">Забыли свой пароль?</a></p>
+        </div> 
+
+        <div id="cd-signup" class="cd-form"> <!-- Добавьте класс для управления видимостью -->
+            <form>
+                <p class="fieldset">
+                    <label class="image-replace cd-username" for="signup-username">Никнэйм</label>
+                    <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+                    <span class="cd-error-message">Ошибка</span>
+                </p>
+
+                <p class="fieldset">
+                    <label class="image-replace cd-email" for="signup-email">E-mail</label>
+                    <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+                    <span class="cd-error-message">Ошибка</span>
+                </p>
+
+                <p class="fieldset">
+                    <label class="image-replace cd-password" for="signup-password">Пароль</label>
+                    <input class="full-width has-padding has-border" id="signup-password" type="password" placeholder="Password">
+                    <a href="#0" class="hide-password">Скрыть</a>
+                    <span class="cd-error-message">Ошибка</span>
+                </p>
+
+                <p class="fieldset">
+                    <input class="fieldset-checkbox" type="checkbox" id="accept-terms">
+                    <label for="accept-terms">Я согласен на <a href="#0">Условия</a></label>
+                </p>
+
+                <p class="fieldset">
+                    <input class="full-width has-padding" type="submit" value="Создать аккаунт">
+                </p>
+            </form>
+        </div> 
+
+        <a href="#0" class="cd-close-form"></a>
+    </div> 
+</div> 
+
+    <!-- Предложка -->
+    <!-- Основной контейнер слайдера -->
+<div class="swiper sim-slider">
+    <h1>Предложка</h1>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="image-slider_image">
+                <a href="anime.html">
+                    <img class="static-image" src="image/360fec6b-e08b-47ef-a04c-b66f3b37e0a1.jpg" alt="Картинка 1">
+                    <video class="animated-video" src="video/one-panch-men (online-video-cutter.com).mp4" alt="Картинка 1 GIF" muted loop>
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image-slider_image">
+                <a href="">
+                    <img class="static-image" src="image/загруженное.jpg" alt="Картинка 2">
+                    <video class="animated-video" src="video/one-panch-men (online-video-cutter.com).mp4" alt="Картинка 2 GIF" muted loop>
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image-slider_image">
+                <a href="">
+                    <img class="static-image" src="image/ai art.jpg" alt="Картинка 3">
+                    <video class="animated-video" src="video/one-panch-men (online-video-cutter.com).mp4" alt="Картинка 3 GIF" muted loop>
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image-slider_image">
+                <a href="">
+                    <img class="static-image" src="image/sailor moon.jpg" alt="Картинка 4">
+                    <video class="animated-video" src="video/one-panch-men (online-video-cutter.com).mp4" alt="Картинка 4 GIF" muted loop>
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image-slider_image">
+                <a href="">
+                    <img class="static-image" src="image/tanjiro.jpg" alt="Картинка 5">
+                    <video class="animated-video" src="video/one-panch-men (online-video-cutter.com).mp4" alt="Картинка 5 GIF" muted loop>
+                    <div class="highlight">
+                        <h1>Заголовок 2</h1>
+                        <p>blue_lock.jpg.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image-slider_image">
+                <a href="">
+                    <img class="static-image" src="image/загруженное.jpg" alt="Картинка 6">
+                    <video class="animated-video" src="video/one-panch-men (online-video-cutter.com).mp4" alt="Картинка 6 GIF" muted loop>
+                    <div class="highlight">
+                        <h1>Makima</h1>
+                        <p>Описание для Makima.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="swiper-slide">
+            <div class="image-slider_image">
+                <a href="">
+                    <img class="static-image" src="image/ai art.jpg" alt="Картинка 7">
+                    <video class="animated-video" src="video/one-panch-men (online-video-cutter.com).mp4" alt="Картинка 7 GIF" muted loop>
+                    <div class="highlight">
+                        <h1>One Punch Man</h1>
+                        <p>Описание для One Punch Man.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Пагинация -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Кнопки навигации -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+
+
+        <!-- Анонсы -->
+      <!-- Основной контейнер слайдера -->
+      <div class="swiper sim-slider">
+        <h1>С высокой оценкой</h1>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="preview-image-slider_image">
+                <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 1" data-anons-image="image/solo-leveling-3840x2160-16126 (1).jpg">
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/Pokemon 4k wallpaper.jpg" alt="Картинка 2" data-anons-image="image/Pokemon 4k wallpaper.jpg">
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/Pokemon 4k wallpaper.jpg" alt="Картинка 2" data-anons-image="image/Pokemon 4k wallpaper.jpg">
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                        <img src="image/Pokemon 4k wallpaper.jpg" alt="Картинка 2" data-anons-image="image/Pokemon 4k wallpaper.jpg">
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                        <img src="image/Pokemon 4k wallpaper.jpg" alt="Картинка 2" data-anons-image="image/Pokemon 4k wallpaper.jpg">
+                    <div class="highlight">
+                        <h1>Заголовок 2</h1>
+                        <p>blue_lock.jpg.</p>
+                    </div>
+                   </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                        <img src="image/Pokemon 4k wallpaper.jpg" alt="Картинка 2" data-anons-image="image/Pokemon 4k wallpaper.jpg">
+                    <div class="highlight">
+                        <h1>Fairy Tail</h1>
+                        <p>Описание для Fairy Tail.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                        <img src="image/Pokemon 4k wallpaper.jpg" alt="Картинка 2" data-anons-image="image/Pokemon 4k wallpaper.jpg">
+                    <div class="highlight">
+                        <h1>Makima</h1>
+                        <p>Описание для Makima.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                        <img src="image/360fec6b-e08b-47ef-a04c-b66f3b37e0a1.jpg" alt="Картинка 7" data-anons-image="image/360fec6b-e08b-47ef-a04c-b66f3b37e0a1.jpg">
+                    <div class="highlight">
+                        <h1>One Punch Man</h1>
+                        <p>Описание для One Punch Man.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+         <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div> 
+
+     <div class="anons-img-container">
+        <a href="">
+            <img id="anons-image" src="">
+            <div class="overlay">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>"Анонс | 2025 | Романтика, Фантастика, Взрослые персонажи, Работа"</p>
+                <button href="">Подробнее</button>
+            </div>
+        </a>
+    </div>
+
+
+      <!-- С высокой оценкой -->
+      <!-- Основной контейнер слайдера -->
+      <div class="swiper sim-slider">
+        <h1>С высокой оценкой</h1>
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 1">
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 2">
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 3">
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 4">
+                    <div class="highlight">
+                        <h1>Ai Hoshino</h1>
+                        <p>Описание для Ai Hoshino.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 5">
+                    <div class="highlight">
+                        <h1>Заголовок 2</h1>
+                        <p>blue_lock.jpg.</p>
+                    </div>
+                   </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 6" >
+                    <div class="highlight">
+                        <h1>Fairy Tail</h1>
+                        <p>Описание для Fairy Tail.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 6">
+                    <div class="highlight">
+                        <h1>Makima</h1>
+                        <p>Описание для Makima.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="preview-image-slider_image">
+                    <a href="">
+                    <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="Картинка 7">
+                    <div class="highlight">
+                        <h1>One Punch Man</h1>
+                        <p>Описание для One Punch Man.</p>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Пагинация -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Кнопки навигации -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- Топ-10 за месяц -->
+    <!-- Основной контейнер слайдера -->
+    <div class="swiper sim-slider">
+        <h1>Топ-10</h1>
+        <div class="swiper-wrapper ">
+            <div class="swiper-slide ">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">1</h1>
+                    <img src="image/Black .gif" alt="Картинка 1">
+                    <div class="top-highlight highlight">
+                        <h1>Ai Hoshino</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">2</h1>
+                    <img src="image/1eff8081-4057-40fd-8e3f-cca930f98cb9.gif" alt="Картинка 2">
+                    <div class="top-highlight highlight">
+                        <h1>Ai Hoshino</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">3</h1>
+                    <img src="image/6a047d7d-a31e-477c-a830-ceacb163386f.gif" alt="Картинка 3">
+                    <div class="top-highlight highlight">
+                        <h1>Ai Hoshino</h1>
+                    </div>
+                   </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">4</h1>
+                    <img src="image/19b0c211-95b0-4fbe-93b8-5d17334f7ea4.jpg" alt="Картинка 4">
+                    <div class="top-highlight highlight">
+                        <h1>Ai Hoshino</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">5</h1>
+                    <img src="image/39c1a598-9bfc-4f2d-bfb2-927eefb1bc7c.jpg" alt="Картинка 5">
+                    <div class="top-highlight highlight">
+                        <h1>Заголовок 2</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">6</h1>
+                    <img src="image/130 Anime Trivia Questions And Answers To Test Your Otaku Skills.jpg" alt="Картинка 6" >
+                    <div class="top-highlight highlight">
+                        <h1>Fairy Tail</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">7</h1>
+                    <img src="image/360fec6b-e08b-47ef-a04c-b66f3b37e0a1.jpg" alt="Картинка 6">
+                    <div class="top-highlight highlight">
+                        <h1>Makima</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">8</h1>
+                    <img src="image/e48f9814-25dc-46a8-a0b7-5d150e0190b8.jpg" alt="Картинка 7">
+                    <div class="top-highlight highlight">
+                        <h1>One Punch Man</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">9</h1>
+                    <img src="image/ichigo.gif" alt="Картинка 7">
+                    <div class="top-highlight highlight">
+                        <h1>One Punch Man</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="swiper-slide ">
+                <div class="top-image-slider_image">
+                    <a href="">
+                    <h1 class="top-10">10</h1>
+                    <img src="image/Nothing happened_.gif" alt="Картинка 7">
+                    <div class="top-highlight highlight">
+                        <h1>One Punch Man</h1>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Пагинация -->
+        <div class="swiper-pagination"></div>
+
+        <!-- Кнопки навигации -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <!-- сдесь будет картинка -->
+    <div class="anons-img-container">
+        <a href="">
+            <img src="image/solo-leveling-3840x2160-16126 (1).jpg" alt="картинка">
+            <div class="overlay">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>"Анонс | 2025 | Романтика, Фантастика, Взрослые персонажи, Работа"</p>
+                <button href="">Подробнее</button>
+            </div>
+        </a>
+    </div>
+
+      <!-- Подвал -->
+      <footer class="footer_container">
+        <div id="box_logo">
+            <h1>OtakuWorld</h1>
+        </div>
+        <div class="information_container">
+            <a href="">ds</a>
+            <a href="">tg</a>
+            <a href="">vk</a>
+        </div>
+        <div class="footer_links">
+            <a href="">Premium</a>
+            <a href="">Контакты</a>
+            <a href="">Мобильная версия</a>
+            <a href="">FAQ</a>
+            <a href="">Очистить cookie</a>
+            <a href="">Пользовательское соглашение</a>
+            <a href="">Политика конфиденциальности</a>
+            <a href="">Аубличная оферта</a>
+            <a href="">Правообладателям</a>
+            <a href="">DMCA</a>
+        </div>
+        <div class="footer_bottom">
+            <p>Доступно в рустор</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/container.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

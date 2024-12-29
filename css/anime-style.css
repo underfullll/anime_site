@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.banner-position{
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 853px;
+}
+
+.background-image {
+    display: flex;
+    justify-content: center;
+    width: 1920px;
+    height: 853px;
+    filter: brightness(0.5);
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.anime-info {
+    display: flex;
+    justify-content: space-between;
+    width: 1920px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+    color: white; 
+}
+
+
+.studio-director{
+    width: 720px;
+}
+
+.anime-info img{
+    width: 446px;
+    height: 630px;
+    border-radius: 20px;
+}
+
+.anime-poster {
+    border-radius: 20px;
+}
+
+.anime-info h2{
+    font-size: 64px;
+    margin-left: 20px;
+}
+.anime-info p{
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.watch-button{
+    margin-left: 10px;
+    color: white;
+    width: 248px;
+    height: 54px;
+    font-size: 22px;
+    border-radius: 26px;
+    background: gray;
+}
+.watch-button:hover{
+    color: white;
+    width: 248px;
+    height: 54px;
+    font-size: 22px;
+    border-radius: 26px;
+    background: rgb(254, 163, 224);
+}
+
+.favorite-button{
+    margin-left: 10px;
+    width: 54px;
+    height: 54px;
+    border-radius: 30px;
+    background: gray;
+}
+
+.favorite-button:hover{
+    background:rgb(254, 163, 224);
+}
+
+.watched-button{
+    margin-left: 10px;
+    width: 54px;
+    height: 54px;
+    border-radius: 30px;
+    background: gray;
+}
+.watched-button:hover{
+    background:rgb(254, 163, 224);
+}
+
+.favorite-anime-button{
+    margin-left: 10px;
+    width: 54px;
+    height: 54px;
+    border-radius: 30px;
+    background: gray;
+}
+.favorite-anime-button:hover{
+    background:rgb(254, 163, 224);
+}
