@@ -1,7 +1,7 @@
 let swiper;
 
 document.addEventListener('DOMContentLoaded', function () {
-    console.log('DOM fully loaded and parsed'); // Проверка загрузки DOM
+    console.log('DOM fully loaded and parsed'); 
     swiper = new Swiper('.sim-slider', {
         slidesPerView: "auto",
         centeredSlides: true,

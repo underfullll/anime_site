@@ -34,7 +34,6 @@ header {
 }
 
 .left h2 {
-    /* wonderful */
     width: 255px;
     height: 75px;
     display: flex;
@@ -44,7 +43,7 @@ header {
 }
 
 .left span {
-    /* 25 */
+
     color: black;
     width: 70px;
     height: 70px;
@@ -59,12 +58,11 @@ header {
 }
 
 .quote{
-    /* «Не важно, с какой скоростью ты движешься к своей цели, главное — не останавливаться» */
     font-family: Poppins;
     font-size: 22px;
 }
 .date{
-    /* Регистрация: 30.10.2024 */
+
     color: white;
     display: flex;
     font-family: Poppins;
